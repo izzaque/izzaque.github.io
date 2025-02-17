@@ -1,5 +1,5 @@
 ---
-title: first-page
+title: "first-page"
 ---
 
 # a example page
