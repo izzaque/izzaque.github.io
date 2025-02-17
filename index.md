@@ -11,8 +11,16 @@ title: 一个伤心😢的开始
 ### 第1步尝试liquid
 {% highlight c linenos %}
 #include <stdio.h>
-int main {
+int main() {
   printf("hello jekyll");
   return 0;
 }
 {% endhighlight %}
+
+```c
+#include <stdio.h>
+int main() {
+  printf("hello jekyll");
+  return 0;
+}
+```
