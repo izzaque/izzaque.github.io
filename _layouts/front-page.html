@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- 标准的网站图标 -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- 适用于旧版浏览器的快捷方式图标 -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- 苹果设备主屏幕图标，不同尺寸适配不同设备 -->
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png">
+    <!-- 苹果设备预先合成好的主屏幕图标 -->
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+    <!-- 安卓设备遮罩图标 -->
+    <link rel="mask-icon" href="mask-icon.svg" color="#333">
+    <!-- Windows系统下的磁贴图标 -->
+    <meta name="msapplication-TileImage" content="mstile-144x144.png">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <!-- 高清屏幕下的图标，可根据实际情况调整尺寸 -->
+    <link rel="icon" sizes="192x192" href="android-icon-192x192.png">
+    <link rel="icon" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" sizes="16x16" href="favicon-16x16.png">
+    <meta charset="utf - 8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/blog/">Blog</a>
+    </nav>
+    <h1>{{ page.title }}</h1>
+    <section>
+        {{ content }}
+    </section>
+    <footer>
+        &copy; to me
+    </footer>
+</body>
+</html>
