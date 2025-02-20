@@ -13,4 +13,4 @@ defaults:
       type: "pages"
     values: 
       category: base
-      permalink: /pages/:title
+      permalink: /pages/:title/
