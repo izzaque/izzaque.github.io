@@ -5,3 +5,12 @@ description: "一个伤心的人，创作了一个博客，但他不希望别人
 
 include: 
   - _pages
+
+defaults: 
+  - 
+    scope: 
+      path: ""
+      type: "pages"
+    values: 
+      category: base
+      permalink: /pages/:title
