@@ -11,4 +11,4 @@ defaults:
       path: ""
       type: "pages"
     values:
-      permalink: /:categories/:title
+      permalink: /pages/:title
