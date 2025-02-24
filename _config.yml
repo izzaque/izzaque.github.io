@@ -10,7 +10,6 @@ defaults:
   - 
     scope: 
       type: "pages"
-      path: "/_pages/"
     values: 
       category: base
-      permalink: /:categories/:title
+      permalink: pretty
