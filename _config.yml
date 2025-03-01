@@ -12,4 +12,3 @@ defaults:
       type: "pages"
     values: 
       category: base
-      permalink: pretty
